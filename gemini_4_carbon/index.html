@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en" data-theme-behavior="system">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>gemini-4-elements</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Google+Symbols:opsz,wght,FILL,GRAD,ROND@20..48,100..700,0..1,-50..200,0..100&display=swap"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <abc-canvas autoplay priority data-aspect-ratio="fill">
+      <script type="application/json">
+        {
+          "palette": "tier_l",
+          "gradient_motion": 75,
+          "gradient_softness": 80,
+          "gradient_bloom": 20,
+          "grain": 35,
+          "grain_animate": true,
+          "grain_fps": 16,
+          "focal": "carbon",
+          "focal_scale": 110,
+          "focal_offset_x": 0,
+          "focal_offset_y": 0,
+          "seed": 12,
+          "motion_speed": 35,
+          "interaction": "interactive",
+          "interaction_effect": 65,
+          "interaction_tilt": 55,
+          "interaction_tilt_invert": true,
+          "interaction_ripple": true,
+          "crystal_motion": "float",
+          "crystal_tilt": 0,
+          "crystal_yaw": 0,
+          "crystal_dof": 55,
+          "crystal_fog": 55,
+          "crystal_bloom": 55,
+          "crystal_refraction": 65,
+          "crystal_detail": 70,
+          "motif": "4",
+          "motif_style": "gas",
+          "motif_opacity": 40,
+          "motif_diffusion": 100,
+          "motif_flow_speed": 20,
+          "particles": true,
+          "particle_mode": "x_step",
+          "particle_seed": 0,
+          "particle_density": 45,
+          "particle_opacity": 85,
+          "particle_reactivity": 85,
+          "particle_dodge_radius": 48
+        }
+      </script>
+      <div class="poster">
+        <img class="poster-light" src="./poster-light.webp" alt="" width="1920" height="1080" />
+        <img class="poster-dark" src="./poster-dark.webp" alt="" width="1920" height="1080" />
+      </div>
+    </abc-canvas>
+    <script defer src="./bundle.js"></script>
+  </body>
+</html>

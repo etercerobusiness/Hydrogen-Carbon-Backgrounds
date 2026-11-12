@@ -1,0 +1,20 @@
+{
+  "contentrating": "Everyone",
+  "description": "Gemini 4 Carbon interactive WebGL 2 hero banner",
+  "file": "index.html",
+  "general": {
+    "properties": {
+      "schemecolor": {
+        "order": 0,
+        "text": "ui_browse_properties_scheme_color",
+        "type": "color",
+        "value": "0 0 0"
+      }
+    }
+  },
+  "preview": "preview.jpg",
+  "tags": [ "Abstract", "Technology" ],
+  "title": "Gemini 4 Carbon",
+  "type": "web",
+  "version": 1
+}
